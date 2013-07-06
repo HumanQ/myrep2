@@ -5,8 +5,8 @@ var app = express.createServer(express.logger());
 app.get('/', function(request, response) {
 	var fs = require('fs');
 	var buffer = new Buffer ('hello', 'utf-8');
-	conslole.log(buffer.toString);
-	conslole.log("hello");
+	console.log(buffer.toString);
+	console.log("hello");
 });
 
 var port = process.env.PORT || 5000;
